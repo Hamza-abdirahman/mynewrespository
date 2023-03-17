@@ -2,7 +2,3 @@
 172.31.0.77
 172.31.0.12 
 
-
-[mywebserver : vars]
-mywebpackubuntu = apache2
-mywebpackuRedHat = httpd
