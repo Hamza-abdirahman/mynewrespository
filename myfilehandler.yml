@@ -6,4 +6,4 @@
   - name : create folder 
     file :
       path : /home/ubuntu/myfolder 
-      state :  directroy 
+      state :  directory
