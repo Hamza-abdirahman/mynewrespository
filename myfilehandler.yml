@@ -7,3 +7,8 @@
     file :
       path : /home/ubuntu/myfolder 
       state :  directory
+
+  - name : copy file form master to node 
+    copy : 
+      src : my2ndfile.txt 
+      dest : /home/ubuntu/my2ndfile.txt     
