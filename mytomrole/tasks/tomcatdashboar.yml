@@ -1,7 +1,7 @@
 ---
 - name : copy tomcat user file into ansible node side 
   template :
-     src: Template/mytomcatuser.j2
+     src: Template/mytomuser.j2
      dest : sudo nano /opt/tomcat/conf/tomcat-users.xml
 - name : copy context file into node side 
   template : 
